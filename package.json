@@ -1,0 +1,44 @@
+{
+	"name": "gutenberg-boilerplate",
+	"version": "1.2.0",
+	"description": "A boilerplate for start developing custom Gutenberg Blocks",
+	"author": "Zakaria Binsaifullah",
+	"license": "GPL-2.0-or-later",
+	"main": "build/blocks/index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zakariabinsaifullah/gutenberg-boilerplate.git"
+	},
+	"keywords": [
+		"wordpress",
+		"gutenberg",
+		"blocks",
+		"gutenberg blocks development",
+		"wordpress gutenberg blocks development",
+		"wordpress gutenberg blocks",
+		"wordpress gutenberg blocks development boilerplate"
+	],
+	"prettier": "@wordpress/prettier-config",
+	"stylelint": {
+		"extends": "@wordpress/stylelint-config/scss"
+	},
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start"
+	},
+	"devDependencies": {
+		"@wordpress/eslint-plugin": "^13.2.0",
+		"@wordpress/prettier-config": "^2.1.0",
+		"@wordpress/scripts": "^24.2.0",
+		"@wordpress/stylelint-config": "^21.1.0",
+		"eslint-config-prettier": "^8.3.0"
+	},
+	"dependencies": {
+		"styled-components": "^5.3.6"
+	}
+}

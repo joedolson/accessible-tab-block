@@ -1,0 +1,39 @@
+/*
+* Style Works for both Editor and Frontend
+*/
+.wp-block-tb-tabs {
+	.tb__tab {
+		&-labels {
+			display: flex;
+			align-items: stretch;
+			margin: 0;
+			padding: 0;
+			.tb__tab-label {
+				display: inline-block;
+				list-style: none;
+				cursor: pointer;
+				margin: 0 !important;
+			}
+		}
+		&-content {
+			.tb__tab-panel {
+				display: none;
+				&.active {
+					display: block;
+				}
+			}
+		}
+		.wp-block-tb-tab p {
+			margin-top: 0;
+		}
+	}
+	li.tb__tab-label.active {
+		position: relative;
+	}
+	li.tb__tab-label.active:after {
+		position: absolute;
+		left: 0;
+		width: 100%;
+		content: "";
+	}
+}

@@ -1,0 +1,36 @@
+{
+  "apiVersion": 2,
+  "name": "tb/tabs",
+  "version": "1.0.0",
+  "title": "Accessible Tab Block",
+  "category": "tb-block",
+  "description": "Display content in accessible tabpanels",
+  "supports": {
+    "html": false,
+    "anchor": false,
+    "customClassName": false
+  },
+  "attributes": {
+    "uniqueId": {
+      "type": "string"
+    },
+    "tabLabelsArray": {
+      "type": "array",
+      "default": []
+    },
+    "updateChild": {
+      "type": "boolean",
+      "default": false
+    },
+    "anchorId": {
+      "type": "string"
+    },
+    "customClass": {
+      "type": "string"
+    }
+  },
+  "textdomain": "tabs-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

@@ -4,7 +4,7 @@
  * Description:       A custom Gutenberg Block to show content in tabs style.
  * Requires at least: 5.7
  * Requires PHP:      7.0
- * Version:           1.0.1
+ * Version:           1.0.2
  * Author:            Joe Dolson
  * Author URI:        https://www.joedolson.com
  * License:           GPL-2.0-or-later

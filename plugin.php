@@ -103,7 +103,7 @@ final class TB_BLOCKS_CLASS {
 	// render function.
 	public function tb_render_block( $attributes, $content ) {
 		require_once __DIR__ . '/templates/tabs.php';
-		$handle = 'tb-' . $attributes['uniqueId'];
+		$handle = 'tb-accessible-tabs';
 		$this->tb_inline_css( $handle, tabs_callback( $attributes ) );
 		return $content;
 	}

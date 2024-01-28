@@ -1,16 +1,13 @@
 /* eslint-disable @wordpress/no-unsafe-wp-apis */
 import { __ } from '@wordpress/i18n';
 import {
-	useBlockProps,
 	InspectorControls,
 	InnerBlocks,
 } from '@wordpress/block-editor';
 import {
 	PanelBody,
 	TabPanel,
-	CardDivider,
 	TextControl,
-	Tip,
 } from '@wordpress/components';
 const { Fragment } = wp.element;
 import { useSelect } from '@wordpress/data';

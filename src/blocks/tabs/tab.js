@@ -68,9 +68,14 @@ registerBlockType( 'tb/tab', {
 					updateChild: true,
 				});
 		};
+
+		const TEMPLATE = [ [ 'core/group', {}, [
+				[ 'core/heading', { placeholder: __( 'Tabpanel Content', 'tabs-block' ) } ],
+				[ 'core/paragraph' ],
+		] ] ];
 		return (
 			<div className={className}>
-				<label>{ __( 'Tab Label', 'tabs-block' ) }</label>
+				<label aria-hidden="true">{ __( 'Tab Label', 'tabs-block' ) }</label>
 				<RichText
 					tagName="p"
 					className={`tb__tab_label`}
@@ -78,10 +83,12 @@ registerBlockType( 'tb/tab', {
 					onChange={onChangeTabLabel}
 					placeholder={ __( 'Tab Label', 'tabs-block' ) }
 				/>
-				<InnerBlocks
-					allowedBlocks={true}
-					template={[['core/paragraph']]}
-				/>
+				<div className={`tb__inner_blocks ` + className + '_inner'}>
+					<InnerBlocks
+						allowedBlocks={true}
+						template={ TEMPLATE }
+					/>
+				</div>
 			</div>
 		);
 	},

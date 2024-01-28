@@ -126,7 +126,6 @@ export default function Edit({ attributes, setAttributes, clientId }) {
 			<InnerBlocks
 				allowedBlocks={ALLOWED_BLOCKS}
 				template={[['tb/tab']]}
-				renderAppender={() => <InnerBlocks.ButtonBlockAppender />}
 			/>
 		</Fragment>
 	);

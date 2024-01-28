@@ -25,23 +25,21 @@ function tabs_callback( $attributes ) {
 		border-bottom: none;
 		position: relative;
 		bottom: -1px;
+		background: transparent;
+		color: #1d2327;
 	}
+	.tb__tab-label:focus,
+	.tb__tab-label:hover,
 	.tb__tab-label[aria-selected="true"] {
 		font-weight: 700;
+		color: #1d2327;
 		background: #fff;
-		color: #333;
 	}
 	.tb__tab-content {
 		border: 1px solid;
-		padding: .5rem;
-	
-	.tb__tab-label:hover {
-		text-decoration: underline;
-	}
-	.tb__tab-label:focus {
-		background: #333;
-		color: #fff;
-		border-color: #333;
+		padding: 1rem;
+		background: #fff;
+		color: #1d2327;
 	}';
 
 	return $tb_css;

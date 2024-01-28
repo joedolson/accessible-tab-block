@@ -9,10 +9,7 @@
 			margin: 0;
 			padding: 0;
 			.tb__tab-label {
-				display: inline-block;
-				list-style: none;
 				cursor: pointer;
-				margin: 0 !important;
 			}
 		}
 		&-content {
@@ -23,14 +20,11 @@
 				}
 			}
 		}
-		.wp-block-tb-tab p {
-			margin-top: 0;
-		}
 	}
-	li.tb__tab-label.active {
+	li.tb__tab-label[aria-selected="true"] {
 		position: relative;
 	}
-	li.tb__tab-label.active:after {
+	li.tb__tab-label[aria-selected="true"]:after {
 		position: absolute;
 		left: 0;
 		width: 100%;

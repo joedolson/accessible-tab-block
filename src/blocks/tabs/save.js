@@ -5,12 +5,12 @@ const { RawHTML } = wp.element;
 export default function save({ attributes }) {
 	const {
 		tabLabelsArray,
-		uniqueId,
 		customClass,
 		anchorId,
 	} = attributes;
+
 	const blockProps = useBlockProps.save({
-		className: `tb__tabs_${uniqueId}`,
+		className: `tb__tabs_accessible_tabs ` + customClass,
 	});
 	return (
 		<div {...blockProps} id={anchorId ? anchorId : null}>

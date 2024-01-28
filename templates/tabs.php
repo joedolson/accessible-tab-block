@@ -1,9 +1,10 @@
 <?php
 /**
  * Tabs Callback
+ *
+ * @param array $attributes Block attributes.
  */
 function tabs_callback( $attributes ) {
-	$handle = 'tb__tabs_' . $attributes['uniqueId'];
 	$tb_css = '
 	/**
 	 * Normal CSS

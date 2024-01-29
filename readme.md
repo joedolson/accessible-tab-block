@@ -22,5 +22,3 @@ This plugin was built on a variety of existing resources, with substantive chang
 - [Gutenberg Developer Handbook](https://developer.wordpress.org/block-editor/)
 - [Block Plugin Checker](https://wordpress.org/plugins/developers/block-plugin-validator/)
 - [WordPress Components](https://wordpress.github.io/gutenberg/)
-
-

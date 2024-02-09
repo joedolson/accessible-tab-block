@@ -11,9 +11,6 @@
     "customClassName": false
   },
   "attributes": {
-    "uniqueId": {
-      "type": "string"
-    },
     "tabLabelsArray": {
       "type": "array",
       "default": []

@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name:       Tabs Block
- * Description:       A custom Gutenberg Block to show content in tabs style.
+ * Plugin Name:       Accessible Tabs Block
+ * Description:       A custom Gutenberg Block to show content in tabs.
  * Requires at least: 5.7
  * Requires PHP:      7.0
  * Version:           1.0.2
@@ -116,7 +116,7 @@ final class TB_BLOCKS_CLASS {
 			array(
 				array(
 					'slug'  => 'tb-block',
-					'title' => __( 'Tabs Block', 'tabs-block' ),
+					'title' => __( 'Accessible Tabs Block', 'tabs-block' ),
 				),
 			),
 			$categories,

@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       Accessible Tabs Block
- * Description:       A custom Gutenberg Block to show content in tabs.
+ * Description:       A custom block to show content in tabpanels.
  * Requires at least: 5.7
  * Requires PHP:      7.0
  * Version:           1.0.2

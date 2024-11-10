@@ -35,7 +35,7 @@ registerBlockType( 'tb/tab', {
 
 		const parentBlockID = wp.data
 			.select('core/block-editor')
-			.getBlockParentsByBlockName(clientId, ['tb/tabs']);
+			.getBlockParentsByBlockName(clientId, ['tb/tabs'])[0];
 		const savedBlockIndex = blockIndex;
 		const getBlockIndex = wp.data
 			.select('core/block-editor')

@@ -4,7 +4,7 @@
 	"private": true,
 	"description": "Accessible Tab Block",
 	"author": "Joe Dolson",
-	"license": "GPLv3",
+	"license": "GPLv2",
 	"keywords": [
 	  "tabpanel",
 	  "tabs",

@@ -1,3 +1,5 @@
+This plugin has been archived, as WordPress core now ships with an accessible tab block. I recommend you use the core block.
+
 [![Code Linting](https://github.com/joedolson/accessible-tab-block/actions/workflows/main.yml/badge.svg)](https://github.com/joedolson/accessible-tab-block/actions/workflows/main.yml) [![License](https://img.shields.io/badge/license-GPL--3.0%2B-green.svg)](https://www.gnu.org/licenses/gpl-3.0.txt)
 
 ## Accessible Tab Block WordPress Plugin
